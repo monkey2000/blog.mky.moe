@@ -1,0 +1,14 @@
+<h1><%= config.title %></h1>
+
+<% page.posts.each(function(post) { %>
+<article class="article-card">
+    <h3 class="article-head">
+        <a href="<%- url_for(post.path) %>"><%- post.title %></a>
+    </h3>
+    <p class="article-date"><%- full_date(post.date, "LL") %></p>
+</article>
+<% }) %>
+
+<% if (page.total > 1){ %>
+<%- partial('_partial/pager') %>
+<% } %>

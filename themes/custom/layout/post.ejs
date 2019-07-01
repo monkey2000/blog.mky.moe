@@ -1,0 +1,8 @@
+<h1><%= page.title %></h1>
+
+<% if (page.tags && page.tags.length) { %>
+<p>Tags: <%- partial('_partial/tag', { tags: page.tags }) %></p>
+<% } %>
+
+
+<%- page.content %>
