@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Arch 无痛安装 TensorFlow
-date: 2019-07-01
+date: 2019-07-12
 tags:
     - 系统配置
 ---
