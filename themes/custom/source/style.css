@@ -30,6 +30,16 @@ figure.highlight {
     margin: 0 !important;
 }
 
+figure.highlight > table {
+    display: table;
+    width: 100%;
+}
+
+td.gutter {
+    width: 40px;
+    overflow: hidden;
+}
+
 td.code, td.gutter {
     padding: 0 !important;
 }
