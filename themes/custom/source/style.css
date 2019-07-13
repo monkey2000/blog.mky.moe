@@ -28,11 +28,13 @@ body {
 
 figure.highlight {
     margin: 0 !important;
+    overflow-x: auto;
 }
 
 figure.highlight > table {
     display: table;
     width: 100%;
+    margin: 0;
 }
 
 td.gutter {
