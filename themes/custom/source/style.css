@@ -27,7 +27,7 @@ body {
 }
 
 figure.highlight {
-    margin: 0 0 16 0 !important;
+    margin: 0 0 16px 0 !important;
     overflow-x: auto;
 }
 
