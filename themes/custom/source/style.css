@@ -25,3 +25,11 @@ body {
 .pager > .next {
     float: right;
 }
+
+figure.highlight {
+    margin: 0;
+}
+
+td.code, td.gutter {
+    padding: 0;
+}
