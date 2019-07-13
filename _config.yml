@@ -29,6 +29,7 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
+  hljs: true
   tab_replace:
   
 index_generator:
