@@ -27,9 +27,9 @@ body {
 }
 
 figure.highlight {
-    margin: 0;
+    margin: 0 !important;
 }
 
 td.code, td.gutter {
-    padding: 0;
+    padding: 0 !important;
 }
