@@ -16,7 +16,6 @@ body {
 
 .pager {
     width: 100%;
-    display: table;
 }
 
 .pager > .prev {

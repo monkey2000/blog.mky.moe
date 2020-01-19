@@ -5,7 +5,7 @@ timezone: Asia/Shanghai
 
 url: http://ai.mky.moe
 root: /
-permalink: :year/:title/
+permalink: :title/
 
 source_dir: source
 public_dir: public
@@ -22,7 +22,7 @@ titlecase: false
 external_link: true
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -31,10 +31,10 @@ highlight:
   auto_detect: false
   hljs: true
   tab_replace:
-  
+
 index_generator:
   path: ''
-  per_page: 5
+  per_page: 10
   order_by: -date
   
 default_category: uncategorized
@@ -44,10 +44,12 @@ tag_map:
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 
-per_page: 5
+per_page: 10
 pagination_dir: page
 
 theme: custom
+
+
 
 pandoc:
   toc: true

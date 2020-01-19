@@ -1,11 +1,15 @@
 <h1><%= config.title %></h1>
 
+Links:
+<a href="<%- url_for("tags") %>">Tags</a>
+<a href="<%- url_for("2019/hello_world") %>">ReadMe</a>
+
 <% page.posts.each(function(post) { %>
 <article class="article-card">
     <h3 class="article-head">
         <a href="<%- url_for(post.path) %>"><%- post.title %></a>
     </h3>
-    <p class="article-date"><%- full_date(post.date, "LL") %></p>
+    <p class="article-date"><%- full_date(post.date, "LL HH:MM") %></p>
 </article>
 <% }) %>
 
