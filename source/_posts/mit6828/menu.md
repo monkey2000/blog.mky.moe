@@ -20,4 +20,4 @@ tags:
 * [MIT 6.828 - 7. Lab 07: Locks](/mit6828/7-lab07)
 * [MIT 6.828 - 8. Lab 08: File System](/mit6828/8-lab08)
 * [MIT 6.828 - 9. Lab 09: mmap](/mit6828/9-lab09)
-* MIT 6.828 - 10. Lab 10: network <- Comming soon
+* [MIT 6.828 - 10. Lab 10: network](/mit6828/10-lab10)
