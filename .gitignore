@@ -87,3 +87,6 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 db.json
+
+# Hexo
+public
