@@ -6,3 +6,21 @@
 
 
 <%- page.content %>
+
+<hr />
+
+<div id="gitalk-container"></div>
+
+<script>
+var gitalk = new Gitalk({
+  clientID: 'Iv1.4a44396722573e7e',
+  clientSecret: 'd92c06791f03b1c89f0ff4e0fbf18227c25653e2',
+  repo: 'blog.mky.moe',
+  owner: 'monkey2000',
+  admin: ['monkey2000'],
+  id: location.pathname,
+  distractionFreeMode: false
+});
+
+gitalk.render('gitalk-container');
+</script>
