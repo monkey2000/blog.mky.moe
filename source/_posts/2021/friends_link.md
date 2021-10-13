@@ -6,7 +6,9 @@ tags:
     - 杂项
 ---
 
-今日晴，特设友情链接页面一个。
+以下是俺的朋友们！
 
 - [杰克部落](https://renjikai.com/)
 - [Wandai Blog](https://twd2.me/)
+- [Junyang Zhang](https://jyzhang.xyz/)
+- [Siyuan Luo](http://120.79.138.174:8080/)
