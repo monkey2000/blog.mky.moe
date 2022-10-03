@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 在 Hetzner 上配置 NixOS RAIDZ 全盘加密
-date: 2021-08-01 23:40
+date: 2022-10-03 21:40
 tags:
     - NixOS
 ---
