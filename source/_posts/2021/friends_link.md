@@ -11,5 +11,6 @@ tags:
 - [杰克部落](https://renjikai.com/)
 - [Wandai Blog](https://twd2.me/)
 - [属于CYY自己的世界](https://blog.cyyself.name/)
+- [ShadowMov's Blog](https://shadowmov.com/)
 - [Junyang Zhang](https://jyzhang.xyz/)
 - [Siyuan Luo](http://120.79.138.174:8080/)
