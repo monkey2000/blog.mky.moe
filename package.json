@@ -1,21 +1,37 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "zbaxrl-blog",
   "private": true,
-  "hexo": {
-    "version": "5.4.0"
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/prerender.mjs",
+    "preview": "vite preview",
+    "test": "vitest run"
   },
   "dependencies": {
-    "hexo": "^5.4.1",
-    "hexo-filter-mathjax": "^0.7.1",
-    "hexo-generator-archive": "^1.0.0",
-    "hexo-generator-category": "^1.0.0",
-    "hexo-generator-index": "^2.0.0",
-    "hexo-generator-tag": "^1.0.0",
-    "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-marked": "^5.0.0",
-    "hexo-renderer-pandoc": "^0.3.0",
-    "hexo-renderer-stylus": "^2.0.1",
-    "hexo-server": "^2.0.0"
+    "@mdx-js/react": "latest",
+    "github-markdown-css": "^5.9.0",
+    "katex": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@mdx-js/rollup": "latest",
+    "@shikijs/rehype": "^4.4.3",
+    "@types/katex": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vitejs/plugin-react": "latest",
+    "rehype-katex": "latest",
+    "remark-frontmatter": "^5.0.0",
+    "remark-gfm": "^4.0.1",
+    "remark-math": "latest",
+    "remark-mdx-frontmatter": "^5.2.0",
+    "typescript": "latest",
+    "unist-util-visit": "^5.1.0",
+    "vite": "latest",
+    "vitest": "latest"
   }
 }

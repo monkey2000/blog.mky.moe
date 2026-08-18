@@ -1,0 +1,38 @@
+---
+title: MDX 组件与 KaTeX SSR
+date: 2026-08-16
+tags:
+  - MDX
+  - React
+path: /mdx-demo/
+---
+
+import { SignalCounter } from "@/components/signal-counter";
+
+~~把 Hexo 替换成 Vite + React，但不改变原博客的 GitHub Markdown 外观。~~
+
+这个页面仍然保持原来的排版，只增加 MDX 组件和构建期 KaTeX 渲染能力。
+
+### MDX 组件测试：
+
+<SignalCounter />
+
+组件写法就是普通的 MDX：
+
+```mdx
+<SignalCounter />
+```
+
+### 公式测试：
+
+行内公式 $E = mc^2$ 会直接出现在段落中。
+
+$$
+\mathcal{L}(\theta) = -\frac{1}{N}\sum_{i=1}^{N}\log p_{\theta}(y_i \mid x_i)
+$$
+
+### SSR 测试：
+
+`remark-math` 与 `rehype-katex` 会在预渲染阶段生成 KaTeX HTML。查看最终的 `dist/index.html`，可以直接找到 `.katex` 和 `.katex-display` 标记。
+
+> 浏览器 hydration 只负责接管上面的交互按钮，公式和文章正文不依赖客户端 JavaScript 才能显示。
