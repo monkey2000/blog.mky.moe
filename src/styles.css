@@ -33,15 +33,14 @@ body {
 }
 
 .site-tools {
+  float: right;
+  position: relative;
+  top: 21px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 10px;
   min-height: 32px;
-  margin-bottom: 12px;
-}
-
-.site-tools:has(> .theme-toggle:first-child) {
-  justify-content: flex-end;
+  margin: 0 0 8px 16px;
 }
 
 .theme-toggle,
