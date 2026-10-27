@@ -28,7 +28,7 @@
     "remark-frontmatter": "^5.0.0",
     "remark-gfm": "^4.0.1",
     "remark-math": "latest",
-    "remark-mdx-frontmatter": "^5.2.0",
+    "remark-mdx-frontmatter": "^6.0.0",
     "typescript": "latest",
     "unist-util-visit": "^5.1.0",
     "vite": "latest",
